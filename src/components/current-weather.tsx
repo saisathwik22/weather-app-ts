@@ -46,11 +46,11 @@ const CurrentWeather = ({ data, locationName }: CurrentWeatherProps) => {
                   Feels like {formatTemp(feels_like)}
                 </p>
                 <div className='flex gap-2 text-sm font-medium'>
-                  <span className='flex items-center gap-1 text-blue-500'>
+                  <span className='flex items-center gap-1 text-blue-400 font-semibold'>
                     <ArrowDown className='h-3 w-3' />
                     {formatTemp(temp_min)}
                   </span>
-                  <span className='flex items-center gap-1 text-red-500'>
+                  <span className='flex items-center gap-1 text-red-400 font-semibold'>
                     <ArrowUp className='h-3 w-3' />
                     {formatTemp(temp_max)}
                   </span>
