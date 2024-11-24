@@ -1,6 +1,17 @@
-# Weather App - TanStack Query
+# Klimate - Weather Application - TypeScript
 
-# React + TypeScript + Vite
+- *Klimate* is a **Next JS** based project, built from scratch using **TypeScript**
+- This project features weather & forecast of your current location.
+- **OpenWeatherMap** provides *API Endpoints* to fetch weather and forecast of different cities accross the world.
+- **Recharts** have been used to represent next 24-hours temperatures graphically.
+- It also provides ability to search weather of any city in the world.
+- **Tanstack Query** have been used to manage search history and adding a city to favorites.
+- **React JS**, **Shadcn UI** and **Tailwind CSS** were extensively used to make the UI reponsive and add Theme Toggler.
+- The Project is deployed on **Vercel**
+
+![Screenshot (67)](https://github.com/user-attachments/assets/958a1928-bf89-48e3-b77f-3156671a5722)
+
+![Screenshot (66)](https://github.com/user-attachments/assets/c5d2a713-3e1d-4636-99fe-3aac3c4cfd61)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
